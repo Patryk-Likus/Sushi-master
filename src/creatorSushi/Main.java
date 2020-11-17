@@ -64,7 +64,7 @@ import java.util.List;
 
         private void createButtonX() throws IOException {
             JLabel buttonX = new JLabel();
-            buttonX.setIcon(new ImageIcon(ImageIO.read(new File("src/mmainImages/x.png"))));
+            buttonX.setIcon(new ImageIcon(ImageIO.read(new File("src/mainImages/x.png"))));
             buttonX.setBounds(580, 100, 100, 50);
 
             buttonX.addMouseListener(new MouseAdapter() {
@@ -191,7 +191,7 @@ import java.util.List;
 
         public static void main(String[] args) throws IOException {
 
-            JFrame window = new JFrame("Kreator Sushi");
+            JFrame window = new JFrame("Sushi Master");
             window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             window.setLocation(575,155);
             window.setVisible(true);
